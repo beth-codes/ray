@@ -1,0 +1,25 @@
+.pd-block.about-container{
+   padding-block: 2rem;
+   padding-left: 4.2rem;
+   margin: auto;
+   flex-direction: column;
+   gap: 5rem;
+   @include breakpoint(S){
+      padding-inline: 2rem;
+   }
+
+   .about-header{
+      width: 55%;
+      gap: 1.2rem;
+      display: flex;
+      flex-direction: column;
+
+     
+   }
+   // .about-content{
+      
+   // }
+}
+
+
+

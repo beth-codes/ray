@@ -1,0 +1,27 @@
+//Mixin thta enablesbreakpoint to work
+@mixin breakpoint($name) {
+   @if map-has-key($breakpoints, $name) {
+       @media #{inspect(map-get($breakpoints, $name))} {
+           @content;
+       }
+   }
+   @else {
+       @warn "Couldn't find a breakpoint named `#{$name}`.";
+   }
+}
+
+$breakpoints: (
+    'XXS': ( max-width:  30em ),
+    'XS': ( max-width:  40em ),
+    'XS-up': ( min-width:  641px ),
+    'S': ( max-width:  48em ),
+    'S-up': ( min-width: 769px ),
+    'M': ( max-width:  64em ),
+    'M-up': ( min-width:  64em ),
+    'ML': ( max-width:  75em ),
+    'ML-up': ( min-width:  75em ),
+    'L': ( max-width: 91em ),
+    'XL': ( min-width: 91em ),
+    'XXL': ( min-width: 105em ),
+    'XXXL': ( min-width: 112em )
+);

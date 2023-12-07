@@ -1,0 +1,16 @@
+/* @font-face {
+   font-family: myFirstFont;
+   src: url(FontsFree-Net-d1.ttf) format('truetype');
+ } */
+
+ @font-face {
+   font-family: 'myFirstFont';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url('/wp-content/themes/ray/assets/fonts/FontsFree-Net-d1.ttf') format('truetype');
+ }
+
+ body{
+   font-family: 'myFirstFont';
+ }

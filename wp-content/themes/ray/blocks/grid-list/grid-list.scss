@@ -1,0 +1,42 @@
+.grid-list-container{
+   padding-top: 5rem;
+   flex-direction: column;
+   text-align: center;
+   gap: 4rem;
+
+   @include breakpoint(S){
+      padding-block: 2rem;
+   }
+
+   .grid-list-items{
+      gap: 0;
+      @include breakpoint(S){
+         gap: 2rem;
+      }
+      .grid-list-item{
+         width: calc(100% / 5) ;
+         display: flex;
+         gap: 3rem;
+         flex-direction: column;
+         align-items: center;
+         h2{
+            font-size: 1.5rem;
+            padding-inline: 2rem;
+         }
+
+         .grid-button{
+            width: .5rem;
+            height: .5rem;
+            background-color: #19364a;
+            background-color: var(--color-body, #19364A);
+            bottom: 0;
+            transform: translateX(-50%);
+            left: 50%;
+            transform: rotate(45deg);
+         }
+      }
+   }
+}
+
+
+

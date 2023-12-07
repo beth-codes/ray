@@ -1,0 +1,34 @@
+.image-content-section{
+   align-self: center;
+
+   .image-content-container{
+      display: flex;
+      justify-content: center;
+
+      .image-content-img{
+         width: 50%;
+         max-width: 32rem;
+         height: 32rem;
+         @include breakpoint(S){
+            width: 100%;
+         }
+      }
+      .image-content-content{
+         width: 50%;
+         max-width: 32rem;
+         height: 32rem;
+         display: flex;
+         flex-direction: column;
+         gap: 2rem;
+         text-align: center;
+         justify-content: center;
+         @include breakpoint(S){
+            width: 100%;
+         }
+
+         .h1{
+            font-size: 56px;
+         }
+      }
+   }
+}

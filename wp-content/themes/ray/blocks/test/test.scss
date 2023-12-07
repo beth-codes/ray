@@ -1,0 +1,18 @@
+.test-container{
+   background: red;
+height: 500px;
+width: 60%;
+align-items: center;
+// display: flex;
+justify-content: center;
+
+   &:hover {
+      line-height: 20px;
+      border-bottom: #4CC27B solid 1px;
+      opacity: 1;
+      color: white;
+   }
+}
+
+
+

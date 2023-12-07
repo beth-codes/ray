@@ -1,0 +1,10 @@
+.gallery-section{
+   .gallery-container{
+      gap: 0;
+
+      .gallery-img{
+         width: calc(100% / 3);
+         // height: 28rem;
+      }
+   }
+}

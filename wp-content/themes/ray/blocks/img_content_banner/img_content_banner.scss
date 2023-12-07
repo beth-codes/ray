@@ -1,0 +1,41 @@
+.img-content-banner-container{
+   background: black;
+
+   .img-content-banner-content{
+      width: 80%;
+      height: 251px;
+      margin: auto;
+      justify-content: space-between;
+      align-items: center;
+
+      @include breakpoint(ML){
+         width: 100%;
+      }
+      @include breakpoint(S){
+         height: 100%;
+      }
+
+      .img-content-banner-header{
+         align-self: center;
+
+         h2, h1{
+            font-size: 57px;
+            font-weight: 800;
+            color: #6D6E71;
+
+         }
+      }
+      .img-content-banner-image{
+         height: 32rem;
+         width: 25rem;
+         @include breakpoint(S){
+            width: 100%;
+            height: 100%;
+         }
+      }
+   }
+
+}
+
+
+
