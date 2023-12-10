@@ -1,7 +1,5 @@
 const { useBlockProps, InnerBlocks } = wp.blockEditor;
 
-   // banner 568px 70vh image, header, subtitle, text button   [ 'core/paragraph', { placeholder: 'Summary' } ],
-
 const Edit = () => {
    const MY_TEMPLATE = [
       ['core/columns', {className: 'banner-container'},[
@@ -13,9 +11,8 @@ const Edit = () => {
             ['core/column', {className: 'banner-h1'},[
                [ 'core/heading', { level: 1, placeholder: 'Header', className: 'h1' } ],
             ]],
-           
-            [ 'core/heading', { level: 3, placeholder: 'Header', className: 'h1 bold' } ],
-            [ 'core/heading', { level: 3, placeholder: 'Header', className: 'h1' } ],
+            [ 'core/heading', { level: 5, placeholder: 'Header', className: 'h5' } ],
+            [ 'core/heading', { level: 5, placeholder: 'Header', className: 'h5' } ],
          ]],
 
       ]], 

@@ -2,28 +2,28 @@ const { useBlockProps, InnerBlocks } = wp.blockEditor;
 
 const Edit = () => {
    const MY_TEMPLATE = [
-      ['core/columns', {className: 'test-content display-con display'},[
+      ['core/columns', {className: 'display-con display'},[
          ['core/column', {className: 'full-img'},[
             ['core/video', { className: 'displayed-video' } ],
-            ['core/paragraph', {className: 'text', placeholder: 'Loreum Ipsum'}],
+            ['core/paragraph', {className: 'text h4', placeholder: ''}],
             ['core/column', {className: 'overlay'}],
          ]],
          ['core/column', {className: 'thumb-bar-video'},[
             ['core/column', {className: 'thumb-container'}, [
                [ 'core/video', { className:'thumb-video-item' } ],
-               [ 'core/paragraph', { className:'texts', placeholder: 'Enter Video Title' } ],
+               [ 'core/paragraph', { className:'texts', placeholder: 'Video Title' } ],
             ]],
             ['core/column', {className: 'thumb-container'}, [
                [ 'core/video', { className:'thumb-video-item' } ],
-               [ 'core/paragraph', { className:'texts', placeholder: 'Enter Video Title' } ],
+               [ 'core/paragraph', { className:'texts', placeholder: 'Video Title' } ],
             ]],
             ['core/column', {className: 'thumb-container'}, [
                [ 'core/video', { className:'thumb-video-item' } ],
-               [ 'core/paragraph', { className:'texts', placeholder: 'Enter Video Title' } ],
+               [ 'core/paragraph', { className:'texts', placeholder: 'Video Title' } ],
             ]],
             ['core/column', {className: 'thumb-container'}, [
                [ 'core/video', { className:'thumb-video-item' } ],
-               [ 'core/paragraph', { className:'texts', placeholder: 'Enter Video Title' } ],
+               [ 'core/paragraph', { className:'texts', placeholder: 'Video Title' } ],
             ]],
          ]]
       ]], 

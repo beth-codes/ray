@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.4.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-07 10:32:51+0000\n"
+"PO-Revision-Date: 2023-11-24 11:49:42+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,6 +37,191 @@ msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "Europe/London"
 
+#. translators: %s: Link to activate the Classic Widgets plugin.
+#: wp-admin/widgets-form-blocks.php:87
+msgid "The block widgets require JavaScript. Please enable JavaScript in your browser settings, or activate the <a href=\"%s\">Classic Widgets plugin</a>."
+msgstr "The block widgets require JavaScript. Please enable JavaScript in your browser settings, or activate the <a href=\"%s\">Classic Widgets plugin</a>."
+
+#. translators: %s: Link to install the Classic Editor plugin.
+#: wp-admin/edit-form-blocks.php:338
+msgid "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or install the <a href=\"%s\">Classic Editor plugin</a>."
+msgstr "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or install the <a href=\"%s\">Classic Editor plugin</a>."
+
+#. translators: %s: Link to activate the Classic Editor plugin.
+#: wp-admin/edit-form-blocks.php:329
+msgid "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or activate the <a href=\"%s\">Classic Editor plugin</a>."
+msgstr "The block editor requires JavaScript. Please enable JavaScript in your browser settings, or activate the <a href=\"%s\">Classic Editor plugin</a>."
+
+#: wp-admin/my-sites.php:81 wp-admin/network/menu.php:53
+#: wp-admin/network/site-new.php:182 wp-admin/network/site-new.php:192
+#: wp-admin/network/sites.php:381
+msgid "Add New Site"
+msgstr "Add New Site"
+
+#: wp-admin/menu.php:305 wp-admin/plugins.php:752 wp-admin/network/menu.php:106
+msgid "Add New Plugin"
+msgstr "Add New Plugin"
+
+#: wp-admin/includes/image-edit.php:80
+msgid "Rotate 180&deg;"
+msgstr "Rotate 180&deg;"
+
+#: wp-admin/includes/image-edit.php:79
+msgid "Rotate 90&deg; right"
+msgstr "Rotate 90&deg; right"
+
+#: wp-admin/includes/image-edit.php:78
+msgid "Rotate 90&deg; left"
+msgstr "Rotate 90&deg; left"
+
+#. translators: %s: Number of patterns.
+#: wp-admin/edit.php:392
+msgid "%s pattern moved to the Trash."
+msgid_plural "%s patterns moved to the Trash."
+msgstr[0] "%s pattern moved to the Bin."
+msgstr[1] "%s patterns moved to the Bin."
+
+#. translators: %s: Number of patterns.
+#: wp-admin/edit.php:390
+msgid "%s pattern permanently deleted."
+msgid_plural "%s patterns permanently deleted."
+msgstr[0] "%s pattern permanently deleted."
+msgstr[1] "%s patterns permanently deleted."
+
+#. translators: %s: Number of patterns.
+#: wp-admin/edit.php:385
+msgid "%s pattern updated."
+msgid_plural "%s patterns updated."
+msgstr[0] "%s pattern updated."
+msgstr[1] "%s patterns updated."
+
+#. translators: %s: The dismiss dashicon used for buttons that dismiss or
+#. remove.
+#: wp-admin/edit.php:293
+msgid "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the %s<span class=\"screen-reader-text\">remove</span> button next to its name in the Bulk Edit area that appears."
+msgstr "When using Bulk Edit, you can change the metadata (categories, author, etc.) for all selected posts at once. To remove a post from the grouping, just click the %s<span class=\"screen-reader-text\">remove</span> button next to its name in the Bulk Edit area that appears."
+
+#. translators: 1: WordPress Release Notes link, 2: WordPress version number.
+#: wp-admin/about.php:295
+msgid "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
+msgstr "<a href=\"%1$s\">Read the WordPress %2$s Release Notes</a> for information on installation, enhancements, fixed issues, release contributors, learning resources, and the list of file changes."
+
+#. translators: 1: WordPress Field Guide link, 2: WordPress version number.
+#: wp-admin/about.php:276
+msgid "Explore the <a href=\"%1$s\">WordPress %2$s Field Guide</a>. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
+msgstr "Explore the <a href=\"%1$s\">WordPress %2$s Field Guide</a>. Learn about the changes in this release with detailed developer notes to help you build with WordPress."
+
+#: wp-admin/about.php:233
+msgid "Every release is committed to making WordPress accessible to everyone. 6.4 brings List View improvements and aria-label support for the Navigation block, among other highlights. The admin user interface (UI) includes enhancements to button placements, \"Add New\" menu items context, and Site Health spoken messages."
+msgstr "Every release is committed to making WordPress accessible to everyone. 6.4 brings List View improvements and aria-label support for the Navigation block, among other highlights. The admin user interface (UI) includes enhancements to button placements, \"Add New\" menu items context, and Site Health spoken messages."
+
+#: wp-admin/about.php:223
+msgid "WordPress 6.4 includes more than 100 performance updates for a faster and more efficient experience. Enhancements focus on template loading performance for Block Themes and Classic Themes, usage of the script loading strategies “defer” and “async” in core, blocks, and themes, and optimization of autoloaded options."
+msgstr "WordPress 6.4 includes more than 100 performance updates for a faster and more efficient experience. Enhancements focus on template loading performance for Block Themes and Classic Themes, usage of the script loading strategies “defer” and “async” in core, blocks, and themes, and optimisation of autoloaded options."
+
+#: wp-admin/about.php:210
+msgid "Block Hooks is a new powerful feature that enables plugins to auto-insert blocks into content relative to another block. Think of it as recommendations to make your work with blocks more intuitive. A new \"Plugins\" panel gives you complete control to match them to your needs—add, dismiss, and rearrange Block Hooks as desired."
+msgstr "Block Hooks is a new powerful feature that enables plugins to auto-insert blocks into content relative to another block. Think of it as recommendations to make your work with blocks more intuitive. A new \"Plugins\" panel gives you complete control to match them to your needs—add, dismiss, and rearrange Block Hooks as desired."
+
+#: wp-admin/about.php:209
+msgid "Introducing Block Hooks"
+msgstr "Introducing Block Hooks"
+
+#: wp-admin/about.php:193
+msgid "Get creative with new background images in Group blocks and ensure consistent image dimensions with placeholder aspect ratios. Do you want to add buttons to your Navigation block? You can now do it conveniently without custom CSS. If you're working with synced patterns, alignment settings stay intact for a seamless pattern creation experience."
+msgstr "Get creative with new background images in Group blocks and ensure consistent image dimensions with placeholder aspect ratios. Do you want to add buttons to your Navigation block? You can now do it conveniently without custom CSS. If you're working with synced patterns, alignment settings stay intact for a seamless pattern creation experience."
+
+#: wp-admin/about.php:192
+msgid "Build your creative vision with more design tools"
+msgstr "Build your creative vision with more design tools"
+
+#: wp-admin/about.php:183
+msgid "https://make.wordpress.org/core/2023/10/05/core-editor-improvement-ensuring-excellence-in-the-writing-experience/"
+msgstr "https://make.wordpress.org/core/2023/10/05/core-editor-improvement-ensuring-excellence-in-the-writing-experience/"
+
+#. translators: %s: New enhancements link.
+#: wp-admin/about.php:182
+msgid "<a href=\"%s\">New enhancements</a> ensure your content creation journey is smooth. Find new keyboard shortcuts in List View, refined list merging, and enhanced control over link settings. A revamped and cohesive toolbar experience for Navigation, List, and Quote blocks lets you efficiently work with the tooling options you need."
+msgstr "<a href=\"%s\">New enhancements</a> ensure your content creation journey is smooth. Find new keyboard shortcuts in List View, refined list merging, and enhanced control over link settings. A revamped and cohesive toolbar experience for Navigation, List, and Quote blocks lets you efficiently work with the tooling options you need."
+
+#: wp-admin/about.php:177
+msgid "Enjoy new writing improvements"
+msgstr "Enjoy new writing improvements"
+
+#: wp-admin/about.php:166
+msgid "Need to use your custom patterns on another site? It's simple! Import and export them as JSON files from the Site Editor's patterns view."
+msgstr "Need to use your custom patterns on another site? It's simple! Import and export them as JSON files from the Site Editor's patterns view."
+
+#: wp-admin/about.php:165
+msgid "Share patterns across sites"
+msgstr "Share patterns across sites"
+
+#: wp-admin/about.php:159
+msgid "New media previews for Gallery and Image blocks in List View let you visualize and locate at a glance where images on your content are."
+msgstr "New media previews for Gallery and Image blocks in List View let you visualize and locate at a glance where images on your content are."
+
+#: wp-admin/about.php:158
+msgid "Image previews in List View"
+msgstr "Image previews in List View"
+
+#: wp-admin/about.php:152
+msgid "Set custom names for Group blocks to easily organize and differentiate parts of your content. These names will be visible in List View."
+msgstr "Set custom names for Group blocks to easily organize and differentiate parts of your content. These names will be visible in List View."
+
+#: wp-admin/about.php:151
+msgid "Rename Group blocks"
+msgstr "Rename Group blocks"
+
+#: wp-admin/about.php:139
+msgid "https://make.wordpress.org/core/2023/09/12/core-editor-improvement-commanding-the-command-palette/"
+msgstr "https://make.wordpress.org/core/2023/09/12/core-editor-improvement-commanding-the-command-palette/"
+
+#. translators: %s: Command palette improvement link.
+#: wp-admin/about.php:138
+msgid "Enjoy <a href=\"%s\">a refreshed design and more commands</a> to find what you're looking for, perform tasks efficiently, and save time as you create."
+msgstr "Enjoy <a href=\"%s\">a refreshed design and more commands</a> to find what you're looking for, perform tasks efficiently, and save time as you create."
+
+#: wp-admin/about.php:133
+msgid "Get more done with the Command Palette"
+msgstr "Get more done with the Command Palette"
+
+#: wp-admin/about.php:127
+msgid "Organize your synced and unsynced patterns with categories. Explore advanced filtering in the Patterns section of the inserter to find them all more intuitively."
+msgstr "Organise your synced and unsynced patterns with categories. Explore advanced filtering in the Patterns section of the inserter to find them all more intuitively."
+
+#: wp-admin/about.php:126
+msgid "Categorize and filter patterns"
+msgstr "Categorise and filter patterns"
+
+#: wp-admin/about.php:120
+msgid "Turn lightbox functionality on for interactive, full-screen images with a simple click. Apply it globally or to specific images to customize the viewing experience."
+msgstr "Turn lightbox functionality on for interactive, full-screen images with a simple click. Apply it globally or to specific images to customise the viewing experience."
+
+#: wp-admin/about.php:119
+msgid "Add a lightbox effect to images"
+msgstr "Add a lightbox effect to images"
+
+#: wp-admin/about.php:102
+msgid "https://make.wordpress.org/core/2023/08/24/introducing-twenty-twenty-four/"
+msgstr "https://make.wordpress.org/core/2023/08/24/introducing-twenty-twenty-four/"
+
+#. translators: %s: Introduction to Twenty Twenty-Four link.
+#: wp-admin/about.php:101
+msgid "Experience the latest advancements in site editing with <a href=\"%s\">Twenty Twenty-Four</a>. Built with three distinct use cases in mind, the versatility of the new default theme makes it an ideal choice for almost any type of website. Dive into its collection of templates and patterns and unlock a world of creative possibilities with just a few tweaks."
+msgstr "Experience the latest advancements in site editing with <a href=\"%s\">Twenty Twenty-Four</a>. Built with three distinct use cases in mind, the versatility of the new default theme makes it an ideal choice for almost any type of website. Dive into its collection of templates and patterns and unlock a world of creative possibilities with just a few tweaks."
+
+#: wp-admin/about.php:96
+msgid "Say hello to<br>Twenty Twenty-Four"
+msgstr "Say hello to<br>Twenty Twenty-Four"
+
+#: wp-admin/about.php:89
+msgid "Every version of WordPress empowers your creative freedom, and WordPress 6.4 is no different. New features and upgrades to your site editing, design, and writing experience allow your ideas to take shape seamlessly. Elevate your site-building journey with the flexibility and power of WordPress 6.4."
+msgstr "Every version of WordPress empowers your creative freedom, and WordPress 6.4 is no different. New features and upgrades to your site editing, design, and writing experience allow your ideas to take shape seamlessly. Elevate your site-building journey with the flexibility and power of WordPress 6.4."
+
+#: wp-admin/includes/user.php:722 wp-admin/includes/user.php:744
+msgid "Invalid URL format."
+msgstr "Invalid URL format."
+
 #. translators: 1: Current PHP version, 2: PHP version required by the new
 #. plugin version.
 #: wp-admin/includes/class-plugin-upgrader.php:369
@@ -48,6 +233,11 @@ msgstr "The PHP version on your server is %1$s, however the new plugin version r
 #: wp-admin/includes/class-plugin-upgrader.php:355
 msgid "Your WordPress version is %1$s, however the new plugin version requires %2$s."
 msgstr "Your WordPress version is %1$s, however the new plugin version requires %2$s."
+
+#. translators: %s: WordPress version.
+#: wp-admin/about.php:68
+msgid "https://wordpress.org/support/wordpress-version/version-%s/"
+msgstr "https://wordpress.org/support/wordpress-version/version-%s/"
 
 #: wp-admin/contribute.php:101 wp-admin/credits.php:55 wp-admin/credits.php:63
 msgid "https://make.wordpress.org/contribute/"
@@ -405,6 +595,14 @@ msgstr "Finding the area that aligns with your skills and interests is the first
 msgid "Shape the future of the web with WordPress"
 msgstr "Shape the future of the web with WordPress"
 
+#: wp-admin/contribute.php:92
+msgid "WordPress app: Kotlin, Java, Swift, Objective-C, Vue, Python, and TypeScript."
+msgstr "WordPress app: Kotlin, Java, Swift, Objective-C, Vue, Python, and TypeScript."
+
+#: wp-admin/contribute.php:91
+msgid "WordPress Core and Block Editor: HTML, CSS, PHP, SQL, JavaScript, and React."
+msgstr "WordPress Core and Block Editor: HTML, CSS, PHP, SQL, JavaScript, and React."
+
 #: wp-admin/contribute.php:89
 msgid "WordPress embraces new technologies, while being committed to backward compatibility. The WordPress project uses the following languages and libraries:"
 msgstr "WordPress embraces new technologies, while being committed to backward compatibility. The WordPress project uses the following languages and libraries:"
@@ -416,6 +614,10 @@ msgstr "<strong>Contribute</strong> to the code, improve the UX, and test the Wo
 #: wp-admin/contribute.php:86
 msgid "<strong>Write</strong> and submit patches to fix bugs or help build new features."
 msgstr "<strong>Write</strong> and submit patches to fix bugs or help build new features."
+
+#: wp-admin/contribute.php:85
+msgid "<strong>Test</strong> new releases and proposed features for the Block Editor."
+msgstr "<strong>Test</strong> new releases and proposed features for the Block Editor."
 
 #: wp-admin/contribute.php:84
 msgid "<strong>Find</strong> and report bugs in the WordPress core software."
@@ -429,6 +631,10 @@ msgstr "If you do code, or want to learn how, you can contribute technically in 
 msgid "Code-based contribution"
 msgstr "Code-based contribution"
 
+#: wp-admin/contribute.php:69
+msgid "<strong>Explore</strong> ways to reduce the environmental impact of websites."
+msgstr "<strong>Explore</strong> ways to reduce the environmental impact of websites."
+
 #: wp-admin/contribute.php:68
 msgid "<strong>Edit</strong> videos and add captions to WordPress.tv."
 msgstr "<strong>Edit</strong> videos and add captions to WordPress.tv."
@@ -436,6 +642,14 @@ msgstr "<strong>Edit</strong> videos and add captions to WordPress.tv."
 #: wp-admin/contribute.php:67
 msgid "<strong>Lend</strong> your creative imagination to the WordPress UI design."
 msgstr "<strong>Lend</strong> your creative imagination to the WordPress UI design."
+
+#: wp-admin/contribute.php:66
+msgid "<strong>Organize</strong> or participate in local Meetups and WordCamps."
+msgstr "<strong>Organize</strong> or participate in local Meetups and WordCamps."
+
+#: wp-admin/contribute.php:65
+msgid "<strong>Curate</strong> submissions or take photos for the Photo Directory."
+msgstr "<strong>Curate</strong> submissions or take photos for the Photo Directory."
 
 #: wp-admin/contribute.php:64
 msgid "<strong>Promote</strong> the WordPress project to your community."
@@ -477,9 +691,18 @@ msgstr "Apply your skills or learn new ones."
 msgid "Be part of a global open source community."
 msgstr "Be part of a global open source community."
 
+#: wp-admin/contribute.php:45
+msgid "Join the diverse WordPress contributor community and connect with other people who are passionate about maintaining a free and open web."
+msgstr "Join the diverse WordPress contributor community and connect with other people who are passionate about maintaining a free and open web."
+
 #: wp-admin/contribute.php:44
 msgid "Do you use WordPress for work, for personal projects, or even just for fun? You can help shape the long-term success of the open source project that powers millions of websites around the world."
 msgstr "Do you use WordPress for work, for personal projects, or even just for fun? You can help shape the long-term success of the open source project that powers millions of websites around the world."
+
+#. translators: 1: Learn WordPress link, 2: Workshops link.
+#: wp-admin/about.php:255
+msgid "<a href=\"%1$s\">Learn WordPress</a> is a free resource for new and experienced WordPress users. Learn is stocked with how-to videos on using various features in WordPress, <a href=\"%2$s\">interactive workshops</a> for exploring topics in-depth, and lesson plans for diving deep into specific areas of WordPress."
+msgstr "<a href=\"%1$s\">Learn WordPress</a> is a free resource for new and experienced WordPress users. Learn is stocked with how-to videos on using various features in WordPress, <a href=\"%2$s\">interactive workshops</a> for exploring topics in-depth, and lesson plans for diving deep into specific areas of WordPress."
 
 #: wp-admin/comment.php:72 wp-admin/edit-comments.php:232
 #: wp-admin/edit-form-advanced.php:320 wp-admin/edit-form-advanced.php:338
@@ -979,6 +1202,10 @@ msgstr "Important! Your version of WordPress (%1$s) will stop receiving security
 msgid "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 msgstr "Important! Your version of WordPress (%1$s) is no longer supported, you will not receive any security updates for your website. To keep your site secure, please <a href=\"%2$s\">update to the latest version of WordPress</a>."
 
+#: wp-admin/about.php:277
+msgid "https://make.wordpress.org/core/2023/10/23/wordpress-6-4-field-guide/"
+msgstr "https://make.wordpress.org/core/2023/10/23/wordpress-6-4-field-guide/"
+
 #. translators: %s: Version number.
 #: wp-admin/about.php:246
 msgid "Learn more about WordPress %s"
@@ -1136,6 +1363,10 @@ msgstr "Privacy Laws around the world require businesses and online services to 
 #: wp-admin/erase-personal-data.php:41
 msgid "<strong>Comments</strong> &mdash; WordPress does not delete comments. The software does anonymize (but, again, <em>never</em> publishes) the associated Email Address, IP Address, and User Agent (Browser/OS)."
 msgstr "<strong>Comments</strong> &mdash; WordPress does not delete comments. The software does anonymise (but, again, <em>never</em> publishes) the associated Email Address, IP Address, and User Agent (Browser/OS)."
+
+#: wp-admin/erase-personal-data.php:37
+msgid "WordPress collects (but <em>never</em> publishes) a limited amount of data from logged-in users but then deletes it or anonymizes it. That data can include:"
+msgstr "WordPress collects (but <em>never</em> publishes) a limited amount of data from logged-in users but then deletes it or anonymises it. That data can include:"
 
 #: wp-admin/erase-personal-data.php:28
 msgid "Note: As this tool only gathers data from WordPress and participating plugins, you may need to do more to comply with erasure requests. For example, you are also responsible for ensuring that data collected by or stored with the 3rd party services your organization uses gets deleted."
@@ -2103,6 +2334,10 @@ msgstr "Some screen elements can be shown or hidden by using the checkboxes."
 #: wp-admin/includes/class-wp-screen.php:1116
 msgid "Screen elements"
 msgstr "Screen elements"
+
+#: wp-admin/includes/user.php:751
+msgid "The URL must be served over a secure connection."
+msgstr "The URL must be served over a secure connection."
 
 #. translators: Default privacy policy text.
 #: wp-admin/includes/class-wp-privacy-policy-content.php:572
@@ -5191,6 +5426,11 @@ msgstr "Could not resume the theme."
 msgid "Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the default category %s. The default category cannot be deleted."
 msgstr "Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the default category %s. The default category cannot be deleted."
 
+#. translators: %s: A link to install the Classic Widgets plugin.
+#: wp-admin/widgets-form-blocks.php:96
+msgid "The block widgets require JavaScript. Please enable JavaScript in your browser settings, or install the <a href=\"%s\">Classic Widgets plugin</a>."
+msgstr "The block widgets require JavaScript. Please enable JavaScript in your browser settings, or install the <a href=\"%s\">Classic Widgets plugin</a>."
+
 #: wp-admin/post.php:47
 msgid "A post type mismatch has been detected."
 msgstr "A post type mismatch has been detected."
@@ -5288,6 +5528,17 @@ msgstr "This is an example page. It's different from a blog post because it will
 #: wp-admin/includes/class-wp-posts-list-table.php:1561
 msgid "Export &#8220;%s&#8221; as JSON"
 msgstr "Export &#8220;%s&#8221; as JSON"
+
+#: wp-admin/edit.php:386
+msgid "1 pattern not updated, somebody is editing it."
+msgstr "1 pattern not updated, somebody is editing it."
+
+#. translators: %s: Number of patterns.
+#: wp-admin/edit.php:394
+msgid "%s pattern restored from the Trash."
+msgid_plural "%s patterns restored from the Trash."
+msgstr[0] "%s pattern restored from the Bin."
+msgstr[1] "%s patterns restored from the Bin."
 
 #: wp-admin/setup-config.php:300
 msgid "<strong>Error:</strong> \"Table Prefix\" must not be empty."
@@ -6121,6 +6372,10 @@ msgstr "We take privacy and transparency very seriously. To learn more about wha
 #: wp-admin/freedoms.php:51 wp-admin/freedoms.php:101
 msgid "https://wordpress.org/about/license/"
 msgstr "https://en-gb.wordpress.org/about/license/"
+
+#: wp-admin/privacy.php:44
+msgid "From time to time, your WordPress site may send data to WordPress.org &#8212; including, but not limited to &#8212; the version you are using, and a list of installed plugins and themes."
+msgstr "From time to time, your WordPress site may send data to WordPress.org &#8212; including, but not limited to &#8212; the version you are using, and a list of installed plugins and themes."
 
 #. translators: Attachment information. %s: Date the attachment was uploaded.
 #: wp-admin/includes/meta-boxes.php:445
@@ -8921,6 +9176,11 @@ msgstr "<strong>Themes and Plugins</strong> &mdash; To update individual themes 
 msgid "On this screen, you can update to the latest version of WordPress, as well as update your themes, plugins, and translations from the WordPress.org repositories."
 msgstr "On this screen, you can update to the latest version of WordPress, as well as update your themes, plugins, and translations from the WordPress.org repositories."
 
+#. translators: %s: https://wordpress.org/themes
+#: wp-admin/themes.php:156
+msgid "If you would like to see more themes to choose from, click on the &#8220;Add New Theme&#8221; button and you will be able to browse or search for additional themes from the <a href=\"%s\">WordPress Theme Directory</a>. Themes in the WordPress Theme Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&#8217;re free!"
+msgstr "If you would like to see more themes to choose from, click on the &#8220;Add New Theme&#8221; button and you will be able to browse or search for additional themes from the <a href=\"%s\">WordPress Theme Directory</a>. Themes in the WordPress Theme Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&#8217;re free!"
+
 #. translators: 1: Number of megabytes, 2: Percentage.
 #: wp-admin/includes/dashboard.php:1687
 msgid "%1$s MB (%2$s%%) Space Used"
@@ -10475,6 +10735,10 @@ msgstr "By %s."
 msgid "Add Comment"
 msgstr "Add Comment"
 
+#: wp-admin/includes/template.php:464
+msgid "Add New Comment"
+msgstr "Add New Comment"
+
 #. Author URI of the plugin
 msgid "http://ma.tt/"
 msgstr "https://ma.tt/"
@@ -11551,6 +11815,11 @@ msgstr "Name"
 #: wp-admin/theme-install.php:110
 msgid "You can find additional themes for your site by using the Theme Browser/Installer on this screen, which will display themes from the <a href=\"%s\">WordPress Theme Directory</a>. These themes are designed and developed by third parties, are available free of charge, and are compatible with the license WordPress uses."
 msgstr "You can find additional themes for your site by using the Theme Browser/Installer on this screen, which will display themes from the <a href=\"%s\">WordPress Theme Directory</a>. These themes are designed and developed by third parties, are available free of charge, and are compatible with the licence WordPress uses."
+
+#. translators: %s: WordPress Plugin Directory URL.
+#: wp-admin/plugins.php:566
+msgid "If you would like to see more plugins to choose from, click on the &#8220;Add New Plugin&#8221; button and you will be able to browse or search for additional plugins from the <a href=\"%s\">WordPress Plugin Directory</a>. Plugins in the WordPress Plugin Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&#8217;re free!"
+msgstr "If you would like to see more plugins to choose from, click on the &#8220;Add New Plugin&#8221; button and you will be able to browse or search for additional plugins from the <a href=\"%s\">WordPress Plugin Directory</a>. Plugins in the WordPress Plugin Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&#8217;re free!"
 
 #. translators: %s: MAX_FILE_SIZE
 #: wp-admin/includes/file.php:898
@@ -15525,6 +15794,13 @@ msgid "Mine <span class=\"count\">(%s)</span>"
 msgid_plural "Mine <span class=\"count\">(%s)</span>"
 msgstr[0] "Mine <span class=\"count\">(%s)</span>"
 msgstr[1] "Mine <span class=\"count\">(%s)</span>"
+
+#. translators: %s: Number of patterns.
+#: wp-admin/edit.php:388
+msgid "%s pattern not updated, somebody is editing it."
+msgid_plural "%s patterns not updated, somebody is editing them."
+msgstr[0] "%s pattern not updated, somebody is editing it."
+msgstr[1] "%s patterns not updated, somebody is editing them."
 
 #. translators: %s: Number of posts.
 #: wp-admin/edit.php:359

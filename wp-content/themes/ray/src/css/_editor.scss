@@ -15,7 +15,8 @@ div[tab-index='0']{
    overflow: hidden; 
 }
 .components-resizable-box__container{
-   height: 32rem;
+   // height: 32rem;
+   height: 100%;
 }
 body .is-layout-flex, .wp-block-columns, .wp-block-column{
    // display: unset;
@@ -36,20 +37,85 @@ body .is-layout-flex, .wp-block-columns, .wp-block-column{
 
 html :where(.wp-block){
    max-width: 100%;
+   margin-block: 0 !important;
 }
 
 //editor styling
 .block-editor-block-list__layout{
+   .wp-block-image .components-resizable-box__container {
+      height: 100% !important;
+      width: 100% !important;
+   }
+   .row-container{
+      display: flex;
+      .row-list-item{
+         position: relative !important;
+         top: 50% !important;
+         left: 20% !important;
+         color: #333 !important;
+      }
+      .row-image:after{
+         content: none !important;
+      }
+   }
+
+    .podcast-header{
+      display: flex;
+      gap: 5rem;
+
+      .podcast-item{
+         position: relative !important;
+         audio{
+            min-width: 100px;
+         }
+      }
+       .podcast-image{
+         position: relative !important;
+      
+      &:after{
+         content: none !important;
+      }
+   }
+   }
+
+   .about-container{
+      align-items: baseline;
+   }
 
 .wp-block-raycore-courses {
+  
+   width: 100%;
    gap: 2rem;
+   .custom-add-row{
+      align-self: end;
+   }
    .block-editor-block-list__layout{
-      display: flex;
+      // display: flex;
       gap: 1rem;
 
+   
       .courses-header{
          bottom: 100%;
          text-align: center;
+      }
+      .rows{
+         display: flex;
+         align-items: end;
+      }
+
+      .row-container{
+         width: 100%;
+         height: 20rem;
+         .row-list-item{
+            width: 50%;
+         }
+         figure{
+            width: 50%;
+            .components-resizable-box__container{
+               height: 100% !important;
+               width: 100% !important;
+            }
+         }
       }
    }
 }
@@ -60,7 +126,12 @@ html :where(.wp-block){
 }
 
 //media editor
-.wp-block-raycore-newmedia .display-con{
+.media-container .display-con{
+   .full-img{
+      .text{
+         display: none;
+      }
+   }
    .thumb-bar-video{
       .thumb-container{
          .texts{
@@ -68,5 +139,11 @@ html :where(.wp-block){
          }
       }
    }
+}
+.banner-content-header{
+   grid-column: 1;
+}
+.banner-img:after{
+   content: none;
 }
 }

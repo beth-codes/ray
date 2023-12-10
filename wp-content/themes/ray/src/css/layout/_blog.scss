@@ -22,7 +22,7 @@
    }
    article{
       display: flex;
-      gap: 2rem;
+      // gap: 2rem;
       background: #fff;
       
       .blog-header, .blog-content{
@@ -33,6 +33,13 @@
          flex-direction: column;
          justify-content: center;
          gap: 1rem;
+         max-width: 30rem;
+         margin: auto;
+         // @include breakpoint(S){
+         //    max-width: 26rem;
+         //    margin: auto;
+         // }
+       
          .entry-header{
             display: flex;
             flex-direction: column;
@@ -42,9 +49,9 @@
             display: flex;
             flex-direction: column;
             gap: 2rem;
-            a{
-               align-self: center;
-            }
+            // a{
+            //    align-self: center;
+            // }
          } 
       }
      

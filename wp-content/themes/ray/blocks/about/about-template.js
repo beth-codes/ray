@@ -3,7 +3,19 @@ const Edit = () => {
    const MY_TEMPLATE = [
       ['core/columns', {className: 'about-container'},[
          ['core/column', {className: 'about-header'},[
-            [ 'core/heading', { placeholder: 'Heading' } ],
+            [ 'core/heading', { level: 4, placeholder: 'Heading', className:'h4'} ],
+            ['core/column', {className: 'about-content'},[
+               [ 'core/paragraph', { placeholder: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed' } ],
+            ]]
+         ]],
+         ['core/column', {className: 'about-header'},[
+            [ 'core/heading', { level: 4, placeholder: 'Heading', className:'h4'} ],
+            ['core/column', {className: 'about-content'},[
+               [ 'core/paragraph', { placeholder: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed' } ],
+            ]]
+         ]],
+         ['core/column', {className: 'about-header'},[
+            [ 'core/heading', { level: 4, placeholder: 'Heading', className:'h4'} ],
             ['core/column', {className: 'about-content'},[
                [ 'core/paragraph', { placeholder: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed' } ],
             ]]

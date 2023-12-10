@@ -36,7 +36,7 @@ add_theme_support('post-thumbnails', array(
    function  ray_excerpt_read_more($more = '') {
       //if user is not on the single page show this
       if (! is_single()) {
-         $more = sprintf( '<a href="%1$s"><button class="btn-white">%2$s</button></a>', 
+         $more = sprintf( '<a href="%1$s"><button class="blog-button">%2$s</button></a>', 
          get_permalink(get_the_ID()),
          __('Read more', 'ray')
       );

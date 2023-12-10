@@ -2,7 +2,7 @@ const { registerBlockType} = wp.blocks;
 const { useBlockProps, InnerBlocks, RichText} = wp.blockEditor;
 import Edit from './media-template';
 
-const BLOCKNAME = "wmedia";
+const BLOCKNAME = "media";
 const BLOCKPATH = `raycore/${BLOCKNAME}`;
 
 registerBlockType( BLOCKPATH, {

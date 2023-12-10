@@ -1,8 +1,9 @@
+
 .button-container{
    display: flex;
    flex-wrap: wrap;
    gap: 1rem;
-   justify-content: center;
+   // justify-content: center;
 
    .button .wp-block-button__link{
       border: 0;
@@ -15,19 +16,13 @@
       position: relative;
       text-align: center;
       z-index: 1;
-      // padding: .75rem;
-      // font-family: "myFont";
       font-weight: 500;
       font-size: .875rem;
-      line-height: 1.5;
-      font-style: normal;
       letter-spacing: .125em;
       text-transform: uppercase;
-      // color: #19364a;
       color: black;
       border: 1px solid;
       border-color: rgba(25,54,74,.5);
-      border-color: var(--color-body-50, rgba(25, 54, 74, 0.5));
 
       &:hover, .button.active, input[type="submit"]:hover, input[type="submit"].active, input[type="button"]:hover, input[type="button"].active {
          color: #fff;
@@ -38,4 +33,34 @@
      }
    }
   
+}
+
+.blog-button{
+   border: 0;
+   border-radius: 0;
+   background: rgba(0,0,0,0);
+   appearance: none;
+   cursor: pointer;
+   width: auto;
+   display: inline-block;
+   position: relative;
+   text-align: center;
+   z-index: 1;
+   font-weight: 500;
+   font-size: .875rem;
+   letter-spacing: .125em;
+   text-transform: uppercase;
+   color: black;
+   border: 1px solid;
+   border-color: rgba(25,54,74,.5);
+   padding: 0.75rem;
+
+   &:hover, .button.active, input[type="submit"]:hover, input[type="submit"].active, input[type="button"]:hover, input[type="button"].active {
+      color: #fff;
+      color: var(--color-accent-reverse, #FFF);
+      background-color: #937d60;
+      border-color: #937d60;
+
+  }
+
 }

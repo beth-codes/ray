@@ -20,6 +20,13 @@
       ul{
          display: flex;
          gap: 2rem;
+
+         li a{
+            color: #333;
+            &:hover{
+               color: #937d60;
+            }
+         }
       }
       @include breakpoint(S){
          display: none;
@@ -49,7 +56,7 @@
    width: 100%;
    height: 100%;
    z-index: 20;
-   background: #de135c;
+   background: #937d60;
    overflow: auto;
    // @extend %nav-transition;
    text-align: center;

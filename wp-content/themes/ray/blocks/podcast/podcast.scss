@@ -1,16 +1,24 @@
 // @import '../../src/css/utilities/utilities';
-
+.wp-block-raycore-podcast.pd-inline{
+   padding-inline: 0;
+}
 .podcast-container {
    width: 85%;
    margin: auto;
    position: relative;
+   @include breakpoint(S){
+      width: 100%;
+   }
 
       .podcast-item-containers {
          position: relative;
          width: calc(100% / 3);
          display: flex;
          flex-direction: column;
-         gap: 3rem;
+         gap: 1rem;
+         @include breakpoint(S){
+            gap: 1.5rem;
+         }
          .podcast-header{
             position: relative;
             height: 100%;
@@ -30,7 +38,7 @@
             }
             .podcast-image {
                position: relative;
-               height: 100%;
+               aspect-ratio: 1;
                transition: all .3s ease-in-out;
            
                &:hover {
@@ -53,7 +61,7 @@
          }
          .podcast{
             position: relative;
-            text-align: center;
+            // text-align: center;
             // @include breakpoint(XS) {
             //    color: blue;
             //  }

@@ -2,6 +2,7 @@
 window.addEventListener('DOMContentLoaded', () => {
    const displayedVideos = document.querySelector('.displayed-video video');
    const videos = document.querySelectorAll('.thumb-bar-video .thumb-container .thumb-video-item video');
+   const thumbBarItem = document.querySelectorAll('.thumb-bar-video .thumb-container .thumb-video-item');
    const individualTexts = document.querySelectorAll('.thumb-bar-video .thumb-container .texts');
    const text = document.querySelector('.text');
    const overlay = document.querySelector('.overlay');
@@ -22,9 +23,9 @@ window.addEventListener('DOMContentLoaded', () => {
    for (let i = 0; i < videos.length; i++) {
       const video = videos[i]
       video.controls = false;
-
       video.setAttribute('text', result[i]);
       text.textContent = video.getAttribute('text', result[0]);
+
       video.addEventListener('click', e => {
          text.textContent = video.getAttribute('text', result[i]);
          displayedVideos.src = e.target.src;

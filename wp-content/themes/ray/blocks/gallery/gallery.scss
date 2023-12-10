@@ -4,7 +4,11 @@
 
       .gallery-img{
          width: calc(100% / 3);
-         // height: 28rem;
+         aspect-ratio: 3/4;
+         @include breakpoint(S){
+            width: 100%;
+          
+         }
       }
    }
 }

@@ -7,7 +7,7 @@ const Edit = () => {
         
          ['core/column', {className: 'image-content-content'},[
             ['core/column', {className: 'image-content-content-header'}, [
-               [ 'core/heading', { level: 1, placeholder: 'Header', className: 'h1' } ],
+               [ 'core/heading', { level: 2, placeholder: 'Header', className: 'h2' } ],
                [ 'core/paragraph', {placeholder: 'Subtitle', className: 'subtitle' } ],
             ]],
             ['core/column', {className: 'subtitle'}, [

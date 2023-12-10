@@ -16,6 +16,7 @@ import './grid-list/grid-list';
 import './media/media';
 import './podcast/podcast';
 import './custom-button';
+import './custom-row';
 import './media/media';
 // import './podcast/podcast.scss';
 // import './media/media.scss';
