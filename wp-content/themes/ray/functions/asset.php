@@ -70,11 +70,16 @@ add_action( 'enqueue_block_assets', 'custom_block_style');
 
 //CUSTOM BLOCK CATEGORY
 function register_layout_category( $categories ) {
-	
-	$categories[] = array(
+	$new_category = array(
 		'slug'  => 'blocks-core',
-		'title' => 'Blocks Core'
+		'title' => 'Rays Core'
 	);
+	
+	if (version_compare(get_bloginfo('version'), '5.8', '>=')) {
+		$categories = array_merge(array($new_category), $categories);
+	} else {
+		array_unshift($categories, $new_category);
+	}
 
 	return $categories;
 }

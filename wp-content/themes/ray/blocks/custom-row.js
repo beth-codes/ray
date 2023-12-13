@@ -35,14 +35,14 @@ registerBlockType( BLOCKPATH, {
       wp.data.dispatch("core/block-editor").removeBlocks(clientId);
     };
    return (
-      <div {...blockProps}>
+      <section {...blockProps}>
          <InnerBlocks
          template={ MY_TEMPLATE }
-         templateLock="all" />
+         templateLock="insert" />
          <div className="custom-remove-row">
             <div className="btn" onClick={removeRow}></div>
          </div>
-      </div>
+      </section>
    )
    },
 

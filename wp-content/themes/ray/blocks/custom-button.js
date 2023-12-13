@@ -8,8 +8,8 @@ const BLOCKPATH = `raycore/${BLOCKNAME}`;
 
 registerBlockType( BLOCKPATH, {
     apiVersion: 3,
-    title: 'Button',
-    description: ( 'Button' ),
+    title: 'Custom About',
+    description: ( 'Custom About' ),
     icon: 'button',
     category: 'blocks-core',
 
@@ -25,7 +25,7 @@ registerBlockType( BLOCKPATH, {
    return (
       <InnerBlocks
       template={ MY_TEMPLATE }
-      templateLock="all" />
+      templateLock="insert" />
    )
    },
 

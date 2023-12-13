@@ -19,11 +19,11 @@ const Edit = () => {
   ];
    const blockProps = useBlockProps();
    return (
-      <div { ...blockProps }>
+      <section { ...blockProps }>
          <InnerBlocks
          template={ MY_TEMPLATE }
-         templateLock="all" />
-      </div>
+         templateLock="insert" />
+      </section>
    )
 }
 

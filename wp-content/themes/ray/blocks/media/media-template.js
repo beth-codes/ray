@@ -32,11 +32,11 @@ const Edit = () => {
       className: 'pd-block pd-inline media-container',
    } );  
    return (
-      <div { ...blockProps }>
+      <section { ...blockProps }>
          <InnerBlocks
          template={ MY_TEMPLATE }
-         templateLock="all" />
-      </div>
+         templateLock="insert" />
+      </section>
    )
 }
 

@@ -41,11 +41,11 @@ const Edit = () => {
       className: 'pd-block pd-inline podcast-section',
    } );
    return (
-      <div { ...blockProps }>
+      <section { ...blockProps }>
          <InnerBlocks
          template={ MY_TEMPLATE }
-         templateLock="all" />
-      </div>
+         templateLock="insert" />
+      </section>
    )
 }
 

@@ -5,15 +5,23 @@
    align-items: center;
    flex-direction: column;
    gap: 3rem;
-   // @include breakpoint(S){
-   //    padding-inline: 2rem;
-   // }
+   margin: auto;
+   align-items: flex-start;
+   @include breakpoint(S){
+      width: 100%;
+   }
 
    .about-header{
       width: 55%;
       gap: 1.2rem;
       display: flex;
       flex-direction: column;
+      @include breakpoint(MS){
+         width: 48%;
+      }
+      @include breakpoint(S){
+         width: 100%;
+      }
 
      
    }

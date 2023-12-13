@@ -22,7 +22,7 @@ const Edit = () => {
       <div { ...blockProps }>
          <InnerBlocks
          template={ MY_TEMPLATE }
-         templateLock="all" />
+         templateLock="insert" />
       </div>
    )
 }

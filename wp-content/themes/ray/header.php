@@ -5,8 +5,7 @@
 */
 ?>
 <!DOCTYPE html>
-<!-- dynamic language attributes -->
-<html lang="<?php language_attributes()?>">
+<html <?php language_attributes()?>>
 <head>
    <meta charset="<?php bloginfo( 'charset' )?>">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,8 +15,9 @@
    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;700&display=swap" rel="stylesheet">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;700&family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
-   <title>RAY</title>
-   <?php wp_head();?>
+   <title><? if( isset( $_GET['title'] ) ) echo  $_GET['title']; else the_title(); ?> - Dr. Ray Lutzky</title>
+   <?php wp_head();
+   ?>
 </head>
 <body <?php body_class(); ?>>
 <?php 
@@ -52,9 +52,17 @@ if ( function_exists( 'wp_body_open' ) ) {
          </div>
    </header>
    <section class="menu-wrapper js-menu-toggle flex items-center justify-center">
-	      <a href="#" title="Toggle menu" class="nav-toggle js-nav-toggle flex items-center justify-center size-s"><span class="hide-mobile">
-         <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 32 32"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><title/><g id="cross"><line class="cls-1" x1="7" x2="25" y1="7" y2="25"/><line class="cls-1" x1="7" x2="25" y1="25" y2="7"/></g>
-         </svg></a>
+   <div class="menu-wrapper-logo logo">
+    <?php 
+               if ( function_exists( 'the_custom_logo' ) ) {
+                  the_custom_logo();
+               };
+            ?>
+       <a href="<?php echo home_url(); ?>">Dr. Ray Lutzky</a> 
+       <a href="#" title="Toggle menu" class="nav-toggle js-nav-toggle flex items-center justify-center size-s"><span class="hide-mobile">
+       <svg xmlns="http://www.w3.org/2000/svg" width="35px" height="35px" viewBox="0 0 32 32"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style></defs><title/><g id="cross"><line class="cls-1" x1="7" x2="25" y1="7" y2="25"/><line class="cls-1" x1="7" x2="25" y1="25" y2="7"/></g>
+       </svg></a>
+    </div>  
       
 	      <?php wp_nav_menu(  array( 
                   'theme_location' => 'header-menu', 'container' => 'nav', 'container_class' => 'list-nav'

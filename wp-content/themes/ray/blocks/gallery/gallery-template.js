@@ -12,11 +12,11 @@ const Edit = () => {
    className: 'gallery-section pd-block',
 } );
    return (
-      <div { ...blockProps }>
+      <section { ...blockProps }>
          <InnerBlocks
          template={ MY_TEMPLATE }
-         templateLock="all" />
-      </div>
+         templateLock="insert" />
+      </section>
    )
 }
 

@@ -1,14 +1,12 @@
-
-.button-container{
+.button-container {
    display: flex;
    flex-wrap: wrap;
    gap: 1rem;
-   // justify-content: center;
 
-   .button .wp-block-button__link{
+   .button .wp-block-button__link {
       border: 0;
       border-radius: 0;
-      background: rgba(0,0,0,0);
+      background: rgba(0, 0, 0, 0);
       appearance: none;
       cursor: pointer;
       width: auto;
@@ -22,23 +20,28 @@
       text-transform: uppercase;
       color: black;
       border: 1px solid;
-      border-color: rgba(25,54,74,.5);
+      border-color: rgba(25, 54, 74, .5);
 
-      &:hover, .button.active, input[type="submit"]:hover, input[type="submit"].active, input[type="button"]:hover, input[type="button"].active {
+      &:hover,
+      .button.active,
+      input[type="submit"]:hover,
+      input[type="submit"].active,
+      input[type="button"]:hover,
+      input[type="button"].active {
          color: #fff;
          color: var(--color-accent-reverse, #FFF);
          background-color: #937d60;
          border-color: #937d60;
 
-     }
+      }
    }
-  
+
 }
 
-.blog-button{
+.blog-button {
    border: 0;
    border-radius: 0;
-   background: rgba(0,0,0,0);
+   background: rgba(0, 0, 0, 0);
    appearance: none;
    cursor: pointer;
    width: auto;
@@ -52,15 +55,20 @@
    text-transform: uppercase;
    color: black;
    border: 1px solid;
-   border-color: rgba(25,54,74,.5);
+   border-color: rgba(25, 54, 74, .5);
    padding: 0.75rem;
 
-   &:hover, .button.active, input[type="submit"]:hover, input[type="submit"].active, input[type="button"]:hover, input[type="button"].active {
+   &:hover,
+   .button.active,
+   input[type="submit"]:hover,
+   input[type="submit"].active,
+   input[type="button"]:hover,
+   input[type="button"].active {
       color: #fff;
       color: var(--color-accent-reverse, #FFF);
       background-color: #937d60;
       border-color: #937d60;
 
-  }
+   }
 
 }

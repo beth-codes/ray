@@ -21,11 +21,11 @@ const Edit = () => {
    className: 'editor-container image-content-section pd-block pd-inline',
 } );
    return (
-      <div { ...blockProps }>
+      <section { ...blockProps }>
          <InnerBlocks
          template={ MY_TEMPLATE }
-         templateLock="all" />
-      </div>
+         templateLock="insert" />
+      </section>
    )
 }
 

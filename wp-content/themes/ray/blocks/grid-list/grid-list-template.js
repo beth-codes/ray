@@ -5,7 +5,7 @@ const Edit = () => {
    
       ['core/columns', {className: 'grid-list-container'},[
          ['core/column', {className: 'grid-list-header'}, [
-            [ 'core/heading', { level: 3, placeholder: 'Heading' } ],
+            [ 'core/heading', { level: 3, placeholder: 'Heading', className: 'h3'} ],
          ]],
          ['core/columns', {className: 'grid-list-items'}, [
             ['core/column', {className: 'grid-list-item'},[
@@ -36,11 +36,11 @@ const Edit = () => {
       className: 'pd-block pd-inline grid-list-container',
   } );
    return (
-      <div { ...blockProps }>
+      <section { ...blockProps }>
          <InnerBlocks
          template={ MY_TEMPLATE }
-         templateLock="all" />
-      </div>
+         templateLock="insert" />
+      </section>
    )
 }
 

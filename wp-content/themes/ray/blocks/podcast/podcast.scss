@@ -6,6 +6,9 @@
    width: 85%;
    margin: auto;
    position: relative;
+   @include breakpoint(ML){
+      gap: 0.5rem;
+   }
    @include breakpoint(S){
       width: 100%;
    }
@@ -34,6 +37,16 @@
    
                audio {
                   width: 80%;
+                  min-width: 300px;
+                  @include breakpoint(ML){
+                     min-width: 250px;
+                  }
+                  @include breakpoint(MS){
+                     min-width: 200px;
+                  }
+                  @include breakpoint(S){
+                     min-width: 300px;
+                  }
                }
             }
             .podcast-image {
@@ -61,10 +74,10 @@
          }
          .podcast{
             position: relative;
-            // text-align: center;
-            // @include breakpoint(XS) {
-            //    color: blue;
-            //  }
+            @include breakpoint(S){
+               text-align: center;
+               padding: 0 1rem;
+            }
          }
       }
 

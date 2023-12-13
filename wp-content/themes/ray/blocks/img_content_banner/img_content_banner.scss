@@ -1,9 +1,8 @@
-.img-content-banner-container{
+.img-content-banner-container.pd-inline{
    margin-bottom: 2rem;
    background: black;
-   @include breakpoint(S){
-      padding-inline: 2rem;
-   }
+    padding-inline: 0;
+
 
    .img-content-banner-content{
       width: 85%;
@@ -12,26 +11,26 @@
       justify-content: space-between;
       align-items: center;
 
-      @include breakpoint(ML){
-         width: 100%;
-      }
+
       @include breakpoint(S){
-         height: 100%;
+         height: 90%;
       }
 
       .img-content-banner-header{
          align-self: center;
 
          h2, h1{
-            font-size: 57px;
             font-weight: 800;
-            color: #6D6E71;
+            color: #ffffffe6;
 
          }
       }
       .img-content-banner-image{
          height: 32rem;
          width: 25rem;
+         img{
+            object-fit: contain;
+         }
          @include breakpoint(S){
             width: 100%;
             height: 100%;

@@ -6,7 +6,7 @@ const Edit = (props) => {
 
    const addRow = () => {
      const newRow = wp.blocks.createBlock( 'raycore/rows', {} );
-     wp.data.dispatch( 'core/block-editor' ).insertBlocks( newRow, 3 , props.clientId,);
+     wp.data.dispatch( 'core/block-editor' ).insertBlocks( newRow, 6, props.clientId,);
    };
    
    const MY_TEMPLATE = [
@@ -17,12 +17,12 @@ const Edit = (props) => {
    ];
   
    return (
-     <div {...blockProps}>
+     <section {...blockProps}>
        <InnerBlocks templateLock={false} allowedBlocks='raycore/rows'  template={MY_TEMPLATE} />
        <div className="custom-add-row">
          <button onClick={addRow}>Add Row</button>
        </div>
-     </div>
+     </section>
    );
  }
 
