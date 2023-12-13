@@ -8,8 +8,8 @@ const BLOCKPATH = `raycore/${BLOCKNAME}`;
 
 registerBlockType( BLOCKPATH, {
     apiVersion: 3,
-    title: 'Custom About',
-    description: ( 'Custom About' ),
+    title: 'Custom Button',
+    description: ( 'Custom Button' ),
     icon: 'button',
     category: 'blocks-core',
 

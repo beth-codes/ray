@@ -27,6 +27,9 @@ html :where(.wp-block) {
   max-width: unset;
   margin-block: 0 !important; }
 
+.is-root-container {
+  padding: 3rem; }
+
 .edit-post-visual-editor__post-title-wrapper {
   background-color: #937d60;
   color: #333;
@@ -1138,16 +1141,20 @@ video::-webkit-media-controls-overlay-play-button {
   display: none; }
 
 .contact-content-section.pd-block {
-  width: 85%;
+  width: 45%;
   margin: auto;
   align-self: center;
-  padding-block: 5rem; }
+  padding-top: 7rem; }
+  @media (max-width: 48em) {
+    .contact-content-section.pd-block {
+      width: 100%;
+      padding-top: 2rem; } }
   .contact-content-section.pd-block .contact-content-container {
     display: flex;
     justify-content: center;
     gap: 0rem; }
     .contact-content-section.pd-block .contact-content-container .wpcf7 {
-      width: 50%; }
+      width: 100%; }
       @media (max-width: 48em) {
         .contact-content-section.pd-block .contact-content-container .wpcf7 {
           width: 100%; } }
@@ -1180,29 +1187,6 @@ video::-webkit-media-controls-overlay-play-button {
         color: #fff;
         background-color: #937d60;
         border-color: #937d60; }
-    .contact-content-section.pd-block .contact-content-container .contact-content-content {
-      width: 50%;
-      padding: 0 3.5rem;
-      display: flex;
-      flex-direction: column;
-      gap: 2.5rem;
-      justify-content: center;
-      text-align: center; }
-      @media (max-width: 48em) {
-        .contact-content-section.pd-block .contact-content-container .contact-content-content {
-          width: 100%;
-          text-align: center;
-          gap: 1.5rem;
-          margin-bottom: 2rem; } }
-      .contact-content-section.pd-block .contact-content-container .contact-content-content .contact-details p {
-        font-weight: 500;
-        letter-spacing: .1875rem;
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        font-style: normal;
-        line-height: 3; }
-      .contact-content-section.pd-block .contact-content-container .contact-content-content .h1 {
-        font-size: 56px; }
 
 body {
   font-size: 1rem;

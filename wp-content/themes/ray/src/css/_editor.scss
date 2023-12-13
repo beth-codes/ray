@@ -35,6 +35,10 @@ html :where(.wp-block) {
    margin-block: 0 !important;
 }
 
+.is-root-container{
+   padding: 3rem;
+}
+
 //editor styling
 .edit-post-visual-editor__post-title-wrapper {
    background-color: #937d60;

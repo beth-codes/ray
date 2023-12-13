@@ -4,8 +4,6 @@
    flex-direction: column;
    text-align: center;
    gap: 4rem;
-   // width: 90%;
-   // margin: auto;
 
    @include breakpoint(S){
       padding-block: 2rem;
